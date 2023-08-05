@@ -1,0 +1,29 @@
+ #  Day 1 (05/07/2023)
+## Commands
+| **Command**  |  | **Description** |
+| ------------- | - |------------- |
+| ***whoami***  | - | Print the user name associated with the current effective user ID.<br>Example  - whoami | 
+| ***clear***  | - | clears your screen if this is possible <br> Hint -  can alo use shortcut **ctrl + l** |
+| ***pwd***  | - | Print the full filename of the current working directory. |
+| ***ls***  | - |  List information about the FILEs (the current directory by default). <br> Example  - ls /mnt/c/Users/Abhishek/Documents/learning/linux/Linux <br> Example - ls -l display in list format etc |
+| ***cd***  | - | Changes directory <br> Example - cd Directory name |
+| ***mkdir***  | - |  Create the DIRECTORY(ies), if they do not already exist<br>Example -  mkdir Folder1 |
+| ***touch***  | - |    Update the access and modification times of each FILE to the current time. <br> Example - touch file1.txt |
+| ***rmdir***  | - |   Remove the DIRECTORY(ies), if they are empty.<br> Example - rmdir Folder1  |
+| ***rm***  | - | rm removes each specified file |
+| ***xdg-open***  | - | opening files |
+| ***mv***  | - |  Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.<br> Example - mv file/dir destination dir(mv Loc1 ../Loc2/) |
+| ***cp***  | - |    Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.<br> Example - cp -r demo.txt demo2.txt |
+| ***Content***  | - | Content |
+| ***Content***  | - | Content |
+| ***Content***  | - | Content |
+
+<hr>
+
+## Flags
+
+| **Flags**  |  | **Description** |
+| ------------- | - |------------- 
+| ***-v***  | - | shows details about the results of running tar <br> Example - rmdir -v Folder1 |
+| ***-r , -R , --recursive***  | - |  remove directories and their contents recursively <br> Example - rm -r Folder1 
+| ***-i***  | - |  prompt before every removal <br> Example - rm -ri Folder1|
